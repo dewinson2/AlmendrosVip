@@ -1,0 +1,60 @@
+#contacto {
+    padding: 20px;
+}
+
+#contacto h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.contacto-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mapa {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.formulario-reserva {
+    flex: 1;
+}
+
+.formulario-reserva h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.formulario-reserva label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario-reserva input[type="text"],
+.formulario-reserva input[type="email"],
+.formulario-reserva input[type="tel"],
+.formulario-reserva input[type="date"],
+.formulario-reserva input[type="time"],
+.formulario-reserva input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-reserva input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-reserva input[type="submit"]:hover {
+    background-color: #0056b3;
+}

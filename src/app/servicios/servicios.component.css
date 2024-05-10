@@ -1,0 +1,43 @@
+/* Estilos para la sección de servicios */
+#servicios {
+    padding: 20px;
+}
+
+.servicio {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.servicio h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.servicio p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.servicio a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.servicio a:hover {
+    background-color: #0056b3;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
